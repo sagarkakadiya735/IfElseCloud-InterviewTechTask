@@ -1,0 +1,23 @@
+/* :host ::ng-deep.highcharts-root {
+    width: 100% !important;
+}
+
+:host ::ng-deep.highcharts-root {
+    height: 170px !important;
+}
+
+:host ::ng-deep.highcharts-container {
+    width: 100% !important;
+}
+
+:host ::ng-deep.highcharts-container {
+    height: 170px !important;
+} */
+
+:host ::ng-deep.highcharts-legend {
+    display: none !important;
+}
+
+.h-fix {
+    height: 200px;
+}

@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="d-flex justify-content-between">
+        <div class="font-weight-bold mb-3">Marketing Analytics</div>
+        <div class="text-main-color f-size-12 font-weight-bold">View More</div>
+    </div>
+
+    <div class="shadow p-3 mt-2 bg-white rounded-15" *ngFor="let item of arraydata;let i=index">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4">
+                <div class="d-flex justify-content-center">
+                    <div class="px-2 my-auto">
+                        market Portfolio 1
+                    </div>
+                    <div class="border-left px-2 my-auto">
+                        <div class="border-right px-2 my-auto">
+                            <div [chart]="getChart(chart, i)"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-8 col-xs-8 col-lg-8 my-auto">
+                <div class="d-flex justify-content-between">
+                    <div *ngFor="let data of item;let j=index">
+                        <span class="text-color-grew font-z-13">
+                            {{getName(data, j)}}
+                            <img *ngIf="data.icon=='Up'" src="../../assets/arrow-up.png" class="icon-ws" alt="">
+                            <img *ngIf="data.icon=='Down'" src="../../assets/arrow-down.png" class="icon-ws" alt="">
+                        </span>
+                        <div class="font-weight-bold h5">
+                            {{getBalance(data, j)}} <span [ngStyle]="{'color': data.color}">{{getPercent(data,
+                                j)}}%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

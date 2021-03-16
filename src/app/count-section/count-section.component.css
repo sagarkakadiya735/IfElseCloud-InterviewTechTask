@@ -1,0 +1,111 @@
+.icon-header {
+    width: 30px;
+    height: 30px;
+}
+
+.icon-sub-header {
+    width: 50px;
+    height: 50px;
+}
+
+.text-color {
+    color: #8bdb99;
+}
+
+.text-color-orage {
+    color: #ff7160;
+}
+
+.text-s {
+    font-size: 13px;
+}
+
+.icon {
+    background: #ebf9ed;
+    border-radius: 50%;
+}
+
+.icon-orage {
+    background: #fff0ef;
+    border-radius: 50%;
+}
+
+.bg-l-green {
+    background: #ebf9ed;
+}
+
+.bg-l-orage {
+    background: #fff0ef;
+}
+
+.sub-icon {
+    background: #fff0ef;
+    border-radius: 20%;
+}
+
+.sub-icon-orage {
+    background: #fff5e7;
+    border-radius: 20%;
+}
+
+.sub-icon-green {
+    background: #ebf9ed;
+    border-radius: 20%;
+}
+
+.sub-icon-blue {
+    background: #e3f6fc;
+    border-radius: 20%;
+}
+
+.text-co-grew {
+    color: #adb7c4;
+}
+
+.font-w {
+    font-weight: 800;
+}
+
+.line-h {
+    line-height: 1;
+}
+
+/* :host ::ng-deep.highcharts-root {
+    width: 100% !important;
+}
+
+:host ::ng-deep.highcharts-root {
+    height: 100% !important;
+}
+
+:host ::ng-deep.highcharts-container {
+    width: 100% !important;
+}
+
+:host ::ng-deep.highcharts-container {
+    height: 100% !important;
+} */
+
+:host ::ng-deep.highcharts-data-label-connector {
+    display: none !important;
+}
+
+:host ::ng-deep.highcharts-label {
+    display: none !important;
+}
+
+:host ::ng-deep.highcharts-legend {
+    display: none !important;
+}
+
+:host ::ng-deep.highcharts-credits {
+    display: none !important;
+}
+
+:host ::ng-deep.highcharts-axis {
+    display: none !important;
+}
+
+:host ::ng-deep.highcharts-axis-labels {
+    display: none !important;
+}

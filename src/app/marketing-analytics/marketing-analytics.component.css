@@ -1,0 +1,36 @@
+/* :host ::ng-deep.highcharts-root {
+    width: 100px !important;
+}
+
+:host ::ng-deep.highcharts-root {
+    height: 50px !important;
+}
+
+:host ::ng-deep.highcharts-container {
+    width: 100px !important;
+}
+
+:host ::ng-deep.highcharts-container {
+    height: 50px !important;
+} */
+
+:host ::ng-deep.highcharts-data-label-connector {
+    display: none !important;
+}
+
+:host ::ng-deep.highcharts-label {
+    display: none !important;
+}
+
+/* :host ::ng-deep.highcharts-legend {
+    display: none !important;
+} */
+
+:host ::ng-deep.highcharts-credits {
+    display: none !important;
+}
+
+/* 
+:host ::ng-deep.highcharts-series-group {
+    width: 100px;
+} */

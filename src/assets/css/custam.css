@@ -1,0 +1,135 @@
+.icon-header {
+    width: 30px;
+    height: 30px;
+}
+
+.icon-sub-header {
+    width: 50px;
+    height: 50px;
+}
+
+.text-color {
+    color: #8bdb99;
+}
+
+.text-color-grew {
+    color: #adb7c4;
+}
+
+.text-color-green {
+    color: #5ed694;
+}
+
+.text-color-red {
+    color: red;
+}
+
+.text-color-orage {
+    color: #ff7160;
+}
+
+.text-s {
+    font-size: 13px;
+}
+
+.icon {
+    background: #ebf9ed;
+    border-radius: 50%;
+}
+
+.icon-orage {
+    background: #fff0ef;
+    border-radius: 50%;
+}
+
+.bg-l-green {
+    background: #ebf9ed;
+}
+
+.bg-l-orage {
+    background: #fff0ef;
+}
+
+.sub-icon {
+    background: #fff0ef;
+    border-radius: 20%;
+}
+
+.sub-icon-orage {
+    background: #fff5e7;
+    border-radius: 20%;
+}
+
+.sub-icon-green {
+    background: #ebf9ed;
+    border-radius: 20%;
+}
+
+.sub-icon-blue {
+    background: #e3f6fc;
+    border-radius: 20%;
+}
+
+.text-co-grew {
+    color: #adb7c4;
+}
+
+.font-w {
+    font-weight: 800 !important;
+}
+
+.line-h {
+    line-height: 1;
+}
+
+.rounded-15 {
+    border-radius: 8px !important;
+}
+
+.text-main-color {
+    color: #1abbcd;
+}
+
+.bg-main {
+    background-color: #1abbcd;
+}
+
+.f-size-12 {
+    font-size: 12px;
+}
+
+.icon-w {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-ws {
+    width: 15px;
+    height: 15px;
+}
+
+.bg-shaw {
+    opacity: 0.9;
+    background-color: #48c9d7;
+}
+
+.border-ra {
+    border-radius: 30px;
+}
+
+.font-z-13 {
+    font-size: 13px;
+}
+
+.margin-t-min {
+    margin-top: -4%;
+}
+
+.padding-bottom {
+    padding-bottom: 6% !important;
+}
+
+.bg-search {
+    background-color: #16a5b5 !important;
+    border: none !important;
+}
